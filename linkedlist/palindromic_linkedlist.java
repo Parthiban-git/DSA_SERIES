@@ -13,7 +13,7 @@ class Solution {
     public boolean isPalindrome(ListNode head) {
         if(head==null || head.next==null) return true;
         ListNode slow=head,fast=head,start=head;
-        while(fast!=null && fast.next!=null && fast.next.next!=null){
+        while(fast!=null && fast.next!=null && fast.next.next!=null){ // same for linked lkist cycle
             slow=slow.next;
             fast=fast.next.next;
         }
