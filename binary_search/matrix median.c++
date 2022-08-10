@@ -39,3 +39,9 @@ public:
             return low;
     }
 };
+
+// median of array is left lesser than that number and greater than that no is equal
+// find low and highn value of matrix
+// take the median of that
+// check elements lesser than mi, if greater move high else move low
+// for checking elements lesser , use binary search, search the element in each row by binary search
