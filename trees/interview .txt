@@ -1,0 +1,39 @@
+tree:
+    non-linear ds
+    linear-one level nonlinear--> hirarchial
+    basically a undirected graph
+
+    height--> no of edges from that node to leaf(in longest path)
+    depth-->length of path from root to that node
+
+
+binary tree :
+         node contains at most 2 children (0,1,2) not more than that
+         basically it acts like a doubly linked list
+         a node contains data, left child address, right child address
+full/proper/strict
+         each node contains 0 or 2 children
+         ie()each node contains 2 children except leaf
+
+complete binary tree:
+         each levels are completely filled eacept last levels
+         last level is filled from as left as possible
+
+perfect binary tree:
+        each node contains 2 node except for leaf
+        all leaf must be at same level
+
+degenerate binary tree:
+        each internal node contains one child
+        left skewed or right skewed binary tree
+
+
+Applications of Binary Trees
+Introduction. In this article, we'll briefly look at binary trees and review some useful applications of this data structure. ...
+Routing Tables. A routing table is used to link routers in a network. ...
+Decision Trees. ...
+Expression Evaluation. ...
+Sorting. ...
+Indices for Databases. ...
+Data Compression. ...
+Conclusion.
